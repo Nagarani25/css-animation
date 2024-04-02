@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASCADING STYLE SHEETS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="css">
+        <h3>CASCADING STYLE SHEETS</h3>
+        <h5>Introduction</h5>
+        <p>
+            <li class="intro">CSS stands for Cascading Style Sheets.</li>
+            <li class="intro">CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</li>
+            <li class="intro">CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li>
+            <li class="intro">External stylesheets are stored in CSS files.</li>
+        </p>
+        <h5>CSS Selectors</h5>
+        <p>We can divide CSS selectors into five categories:
+            <li class="intro">Simple selectors (select elements based on name, id, class).</li>
+            <li class="intro">Combinator selectors (select elements based on a specific relationship between them).</li>
+            <li class="intro">Pseudo-class selectors (select elements based on a certain state).</li>
+            <li class="intro">Pseudo-elements selectors (select and style a part of an element).</li>
+            <li class="intro">Attribute selectors (select elements based on an attribute or attribute value).</li>
+        </p>
+        <h5>The CSS Element Selectors</h5>
+        <p>
+            <li class="intro">The element selector selects HTML elements based on the element name.</li>
+        </p>
+        <h5>The CSS id Selectors</h5>
+        <p>
+            <li class="intro">The id selector uses the id attribute of an HTML element to select a specific element.</li>
+            <li class="intro">The id of an element is unique within a page, so the id selector is used to select one unique element!</li>
+            <li class="intro">To select an element with a specific id, write a hash (#) character, followed by the id of the element.</li>
+        </p>
+        <h5>The CSS class Selectors</h5>
+        <p>
+            <li class="intro">The class selector selects HTML elements with a specific class attribute.</li>
+            <li class="intro">To select elements with a specific class, write a period (.) character, followed by the class name.</li>
+            <li class="intro">You can also specify that only specific HTML elements should be affected by a class.</li>
+            <li class="intro">HTML elements can also refer to more than one class.</li>
+        </p>
+        <h5>The CSS Universal Selectors</h5>
+        <p>
+            <li class="intro">The universal selector (*) selects all HTML elements on the page.</li>
+        </p>
+        <h5>The CSS Grouping Selectors</h5>
+        <p>
+            <li class="intro">The grouping selector selects all the HTML elements with the same style definitions.</li>
+            <li class="intro">Look at the following CSS code (the h1, h2, and p elements have the same style definitions).</li>
+            <li class="intro">It will be better to group the selectors, to minimize the code.</li>
+            <li class="intro">To group selectors, separate each selector with a comma.</li>
+        </p>
+        <h5>All CSS Simple Selectors</h5>
+        <table>
+            <thead>
+                <tr>
+                    <td class="selector">Selectors</td>
+                    <td class="selector">Example</td>
+                    <td class="selector">Example Description</td>
+                </tr>
+                <tr>
+                    <td>#id</td>
+                    <td>#firstname</td>
+                    <td>Selects the element with id="firstname"</td>
+                </tr>
+                <tr>
+                    <td>.class</td>
+                    <td>.intro</td>
+                    <td>Selects all elements with class="intro"</td>
+                </tr>
+                <tr>
+                    <td>element.class</td>
+                    <td>p.intro</td>
+                    <td>Selects only &lt;p&gt; elements with class="intro"</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>*</td>
+                    <td>Selects all elements</td>
+                </tr>
+                <tr>
+                    <td>element</td>
+                    <td>p</td>
+                    <td>Selects all &lt;p&gt; elements</td>
+                </tr>
+                <tr>
+                    <td>element,element,..</td>
+                    <td>div, p</td>
+                    <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+                </tr>
+            </thead>
+        </table>
+    </section>
+</body>
+</html>

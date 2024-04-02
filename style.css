@@ -1,0 +1,247 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("https://cdn.wallpapersafari.com/42/70/saBjL3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rotating-text-wrapper
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.rotating-text-wrapper h2
+{
+    font-size: 2.1em;
+    margin: 0;
+    color: #fff;
+    padding: .3em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+.rotating-text-wrapper a
+{
+    font-size: 2.1em;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0;
+    color: #fff;
+    padding: .3em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+.rotating-text-wrapper h2:nth-child(1)
+{
+    background-color: lightseagreen;
+    animation-name: rotating-text-1;
+}
+@keyframes rotating-text-1
+{
+    0%
+    {
+        transform: translateY(200%);
+    }
+    20%
+    {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+    21%
+    {
+        opacity: 0;
+    }
+}
+.rotating-text-wrapper h2:nth-child(2)
+{
+    background-color: tomato;
+    animation-name: rotating-text-2;
+}
+@keyframes rotating-text-2
+{
+    20%
+    {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    40%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    41%
+    {
+        opacity: 0;
+    }
+}
+.rotating-text-wrapper h2:nth-child(3)
+{
+    background-color: cornflowerblue;
+    animation-name: rotating-text-3;
+}
+@keyframes rotating-text-3
+{
+    40%
+    {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    60%
+    {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+    61%
+    {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+.rotating-text-wrapper a:nth-child(4)
+{
+    background-color: rgb(32, 37, 178);
+    animation-name: rotating-text-4;
+}
+@keyframes rotating-text-4
+{
+    60%
+    {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    80%
+    {
+        transform: translateY(-200%);
+        opacity: 1;
+    }
+    81%
+    {
+        opacity: 0;
+    }
+}
+.rotating-text-wrapper a:nth-child(5)
+{
+    background-color: rgb(156, 178, 32);
+    animation-name: rotating-text-5;
+}
+@keyframes rotating-text-5
+{
+    80%
+    {
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(-300%);
+        opacity: 1;
+    }
+    101%
+    {
+        opacity: 0;
+    }
+}
+#html h3
+{
+    background-color: rgb(5, 83, 83);
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#html h2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#html h4
+{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+#html h5
+{
+   margin-left: 15px;
+   font-size: 18px;
+   font-weight: 800;
+}
+#html p 
+{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#css h3
+{
+    background-color: rgb(5, 83, 83);
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#css h5
+{
+   margin-left: 15px;
+   font-size: 18px;
+   font-weight: 800;
+}
+#css p 
+{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.intro
+{
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+table,thead,tr,td
+{
+    border: 5px solid rgba(10, 10, 10, 0.66);
+    border-collapse: collapse;
+    padding: 12px 100px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+.selector
+{
+    background-color: rgb(41, 190, 227);
+    color: #111111;
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+@media  screen and (max-width:576px) {
+    .rotating-text-wrapper
+    {
+        font-size: 0.7em;
+    }
+}
